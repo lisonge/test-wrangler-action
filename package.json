@@ -1,0 +1,8 @@
+{
+  "name": "test-wrangler-action",
+  "type": "module",
+  "volta": {
+    "node": "24.15.0",
+    "pnpm": "11.2.2"
+  }
+}
