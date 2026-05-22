@@ -15,3 +15,7 @@ jobs:
           node-version: 24
       - uses: pnpm/action-setup@v6
       - uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: apiToken
+          accountId: accountId
+          command: pages deploy dist --project-name=my-project
